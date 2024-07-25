@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Detail - Nirwana AI</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-12">
+            <div class="header">
+              <div class="logo">
+                <img
+                  src="./assets/images/main-logo.png"
+                  class="img-fluid w-100"
+                  alt="logo"
+                />
+              </div>
+              <button class="hamburger" id="hamburger"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewBox="0 0 19 12" fill="none">
+                <path d="M0.5 12V10H18.5V12H0.5ZM0.5 7V5H18.5V7H0.5ZM0.5 2V0H18.5V2H0.5Z" fill="white"/>
+              </svg></button> <!-- Hamburger Icon -->
+              <div class="navigation-menu" id="menu">
+                <button class="close-menu" id="closeMenu">&times;</button> <!-- Close button -->
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="blogs.html" class="active">Blogs</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <a href="#" class="primary-button">Log In</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Banner Section Start-->
+
+    <main class="banner">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7">
+            <h1>Welcome to Nirwana AI!</h1>
+            <p>
+              We are building a revolutionary software to help interior
+              designers and home-owners accurately visualize their creative
+              design ideas with ease.
+            </p>
+            <a class="primary-button" href="#">Free Trial</a>
+          </div>
+          <div class="col-md-5 d-none d-md-block d-lg-block">
+            <img
+              src="./assets/images/about-us-banner-image.jpg"
+              class="img-fluid w-100"
+              alt="about-banner"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Banner Section End-->
+
+    <section class="blogs-wrapper blog-detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>Lorem Ipsum is simply dummy text of the</h3>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M9.18022 4.5C9.33339 4.5 9.48028 4.56084 9.58858 4.66915C9.69688 4.77745 9.75773 4.92434 9.75773 5.0775V6.15743H15.9593V5.08492C15.9593 4.93176 16.0201 4.78487 16.1284 4.67657C16.2367 4.56827 16.3836 4.50742 16.5367 4.50742C16.6899 4.50742 16.8368 4.56827 16.9451 4.67657C17.0534 4.78487 17.1143 4.93176 17.1143 5.08492V6.15743H19.35C19.7875 6.15742 20.207 6.33115 20.5164 6.64041C20.8258 6.94966 20.9998 7.36914 21 7.8066V19.3508C20.9998 19.7883 20.8258 20.2078 20.5164 20.517C20.207 20.8263 19.7875 21 19.35 21H6.15C5.71254 21 5.29298 20.8263 4.98357 20.517C4.67415 20.2078 4.50022 19.7883 4.5 19.3508V7.8066C4.50022 7.36914 4.67415 6.94966 4.98357 6.64041C5.29298 6.33115 5.71254 6.15742 6.15 6.15743H8.60273V5.07667C8.60294 4.92366 8.66388 4.77698 8.77216 4.66885C8.88044 4.56073 9.0272 4.5 9.18022 4.5V4.5ZM5.655 10.8871V19.3508C5.655 19.4158 5.6678 19.4802 5.69268 19.5403C5.71756 19.6003 5.75402 19.6549 5.79998 19.7008C5.84595 19.7468 5.90052 19.7833 5.96057 19.8081C6.02063 19.833 6.085 19.8458 6.15 19.8458H19.35C19.415 19.8458 19.4794 19.833 19.5394 19.8081C19.5995 19.7833 19.6541 19.7468 19.7 19.7008C19.746 19.6549 19.7824 19.6003 19.8073 19.5403C19.8322 19.4802 19.845 19.4158 19.845 19.3508V10.8987L5.655 10.8871ZM10.0003 16.5607V17.9351H8.625V16.5607H10.0003ZM13.4372 16.5607V17.9351H12.0628V16.5607H13.4372ZM16.875 16.5607V17.9351H15.4997V16.5607H16.875ZM10.0003 13.2796V14.6541H8.625V13.2796H10.0003ZM13.4372 13.2796V14.6541H12.0628V13.2796H13.4372ZM16.875 13.2796V14.6541H15.4997V13.2796H16.875ZM8.60273 7.3116H6.15C6.085 7.3116 6.02063 7.3244 5.96057 7.34928C5.90052 7.37416 5.84595 7.41062 5.79998 7.45658C5.75402 7.50255 5.71756 7.55712 5.69268 7.61717C5.6678 7.67723 5.655 7.7416 5.655 7.8066V9.73298L19.845 9.74452V7.8066C19.845 7.7416 19.8322 7.67723 19.8073 7.61717C19.7824 7.55712 19.746 7.50255 19.7 7.45658C19.6541 7.41062 19.5995 7.37416 19.5394 7.34928C19.4794 7.3244 19.415 7.3116 19.35 7.3116H17.1143V8.07802C17.1143 8.23119 17.0534 8.37808 16.9451 8.48638C16.8368 8.59468 16.6899 8.65553 16.5367 8.65553C16.3836 8.65553 16.2367 8.59468 16.1284 8.48638C16.0201 8.37808 15.9593 8.23119 15.9593 8.07802V7.3116H9.75773V8.0706C9.75773 8.22376 9.69688 8.37065 9.58858 8.47895C9.48028 8.58726 9.33339 8.6481 9.18022 8.6481C9.02706 8.6481 8.88017 8.58726 8.77187 8.47895C8.66357 8.37065 8.60273 8.22376 8.60273 8.0706V7.3116Z"
+                  fill="#ED5A6F"
+                />
+              </svg>
+              October 15, 2021</span
+            >
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-30">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="../Nirwana AI/assets/images/blog-detail-image.jpg" alt="" class="img-fluid w-100" />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="../Nirwana AI/assets/images/blog-detail-image.jpg" alt="" class="img-fluid w-100" />
+          </div>
+        </div>
+
+        <div class="row mt-40">
+          <div class="col-12">
+            <h3>Lorem Ipsum is simply</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Blogs Section Start-->
+
+    <section class="blogs-section blogs-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>See Related Blogs</h3>
+          </div>
+        </div>
+        <div class="row blog_slider">
+          <div class="col-md-4 mt-20">
+            <div class="blog-items">
+              <div class="o-hide">
+                <img
+                  src="./assets/images/blog1.jpg"
+                  class="img-fluid w-100"
+                  alt=""
+                />
+              </div>
+              <span>October 15, 2021</span>
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa.
+              </p>
+              <a class="secondary-button" href="#"
+                >Read More
+                <img
+                  src="./assets/images/right-colored-arrow.png"
+                  class="img-fluid"
+                  alt="arrow"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mt-20">
+            <div class="blog-items">
+              <div class="o-hide">
+                <img
+                  src="./assets/images/blog2.jpg"
+                  class="img-fluid w-100"
+                  alt=""
+                />
+              </div>
+              <span>October 15, 2021</span>
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa.
+              </p>
+              <a class="secondary-button" href="#"
+                >Read More
+                <img
+                  src="./assets/images/right-colored-arrow.png"
+                  class="img-fluid"
+                  alt="arrow"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mt-20">
+            <div class="blog-items">
+              <div class="o-hide">
+                <img
+                  src="./assets/images/blog3.jpg"
+                  class="img-fluid w-100"
+                  alt=""
+                />
+              </div>
+              <span>October 15, 2021</span>
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa.
+              </p>
+              <a class="secondary-button" href="#"
+                >Read More
+                <img
+                  src="./assets/images/right-colored-arrow.png"
+                  class="img-fluid"
+                  alt="arrow"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Blogs Section End-->
+
+    <!--Footer Section Start-->
+
+    <footer>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="./assets/images/site-logo.png"
+                class="img-fluid footer-logo"
+                alt="footer-logo"
+              />
+              <p>
+                We are building a revolutionary software to help interior
+                designers and home-owners accurately visualize their creative
+                design ideas with ease.
+              </p>
+              <div class="footer-social-icons">
+                <a href="#"
+                  ><img
+                    src="./assets/images/facebook-icon.png"
+                    alt="facebook"
+                    title="facebook"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./assets/images/linkedin-icon.png"
+                    alt="linkedin"
+                    title="linkedin"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./assets/images/instagram-icon.png"
+                    alt="instagram"
+                    title="instagram"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./assets/images/youtube-icon.png"
+                    alt="youtube"
+                    title="youtube"
+                /></a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-4">
+              <h6>Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Try Now</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Log In</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-8 col-8">
+              <h6>Other</h6>
+              <ul class="footer-links">
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Shipping and Delivery</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h6>Keep In Touch</h6>
+              <div class="contact-details">
+                <div class="cd-items">
+                  <div>
+                    <img
+                      src="./assets/images/location-icon.png"
+                      class="img-fluid"
+                      alt="location-icon"
+                    />
+                  </div>
+                  <div>
+                    <p>Office Address</p>
+                    <span
+                      >59 G/F NEW RAJDHANI, ENCLAVE CGHS East Delhi, New Delhi-
+                      110092,</span
+                    >
+                  </div>
+                </div>
+                <div class="cd-items">
+                  <div>
+                    <img
+                      src="./assets/images/call-icon.png"
+                      class="img-fluid"
+                      alt="location-icon"
+                    />
+                  </div>
+                  <div>
+                    <p>Contact Number</p>
+                    <span><a href="tel:+91 9205989379">+91 9205989379</a></span>
+                  </div>
+                </div>
+                <div class="cd-items">
+                  <div>
+                    <img
+                      src="./assets/images/mail-icon.png"
+                      class="img-fluid"
+                      alt="location-icon"
+                    />
+                  </div>
+                  <div>
+                    <p>Email Address</p>
+                    <span
+                      ><a href="mailto:socials@nirwana.ai"
+                        >socials@nirwana.ai</a
+                      ></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-30 pb-30 copyright">
+        <div class="row text-center">
+          <div class="col-12">
+            <p>© 2024 Nirwana.ai. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Footer Section End-->
+
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/js/common.js"></script>
+  </body>
+</html>

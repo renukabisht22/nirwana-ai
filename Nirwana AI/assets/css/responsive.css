@@ -1,0 +1,812 @@
+@media (max-width: 1399px) {
+  header .header {
+    column-gap: 36px;
+  }
+
+  header .header .navigation-menu ul li {
+    font-size: 14px;
+  }
+
+  header .header .navigation-menu ul li a {
+    font-size: 14px;
+  }
+
+  header .header .navigation-menu ul {
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 1199.99px) {
+  /* header css starts here */
+  header {
+    position: absolute;
+    padding: 30px 0;
+  }
+
+  header .header {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  #hamburger,
+  #closeMenu {
+    display: block;
+  }
+
+  .navigation-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s 0.3s, opacity 0.3s linear; /* Transition for smooth effect */
+  }
+
+  .navigation-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s 0s, opacity 0.3s linear;
+  }
+
+  .navigation-menu ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navigation-menu ul li a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  header .logo {
+    max-width: 156px;
+    order: 2;
+  }
+
+  #hamburger {
+    order: 1;
+  }
+
+  .header .primary-button {
+    order: 3;
+    padding: 8px 24px;
+  }
+
+  header .header .navigation-menu ul {
+    flex-direction: column;
+  }
+
+  /* header css ends here */
+  /* banner css starts here */
+
+  .banner p {
+    font-size: 18px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner .col-md-7 {
+    margin-top: 90px;
+  }
+  /* banner css ends here  */
+  /* gallery css starts here */
+
+  .third-column {
+    flex: 1;
+  }
+
+  .third-column div,
+  .third-column img,
+  .why-choose-us-section .items {
+    height: 100%;
+  }
+
+  /* why choose us section css starts here */
+
+  .why-choose-us-section .items h4,
+  .why-choose-us-section .items p {
+    flex: 1;
+  }
+
+  /* why choose us section css ends here */
+  /* contact page banner css starts here */
+
+  .contact-banner h5 {
+    margin-top: 0;
+  }
+
+  .contact-banner .contact-details {
+    row-gap: 14px;
+  }
+
+  .contact-banner .contact-details .cd-items img {
+    max-width: 50px;
+  }
+
+  .contact-banner .contact-details .cd-items span,
+  .contact-banner .contact-details .cd-items span a {
+    font-size: 14px;
+  }
+
+  .contact-banner .contact-details .cd-items p {
+    margin-bottom: 4px;
+  }
+
+  .contact-container h3 {
+    display: none;
+  }
+
+  .contact-form {
+    margin-top: 26px;
+  }
+
+  .blogs-wrapper h3 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 991.99px) {
+  /* banner css starts here */
+  .banner h6 {
+    font-size: 12px;
+  }
+
+  .banner h1 {
+    font-size: 26px;
+  }
+
+  .banner p {
+    padding-right: 12px;
+  }
+
+  .banner p,
+  .primary-button {
+    font-size: 14px;
+  }
+  /* banner css ends here */
+
+  h6 {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin-top: 8px;
+  }
+
+  .how-it-works-section .mt-40 {
+    margin-top: 30px;
+  }
+
+  .how-it-works-section h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .how-it-works-section p {
+    font-size: 12px;
+  }
+
+  /* about us css starts */
+  .about-us-section p {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  .about-us-section ul {
+    margin-top: 16px;
+    margin-bottom: 28px;
+  }
+
+  .about-us-section ul li {
+    font-size: 13px;
+  }
+
+  .about-us-section ul li:not(:first-child) {
+    margin-top: 14px;
+  }
+
+  .first-column,
+  .second-column,
+  .third-column {
+    margin-right: 0;
+    flex: 0;
+  }
+
+  .gallery {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .gallery .column {
+    display: none;
+  }
+
+  .mobile-gallery-image {
+    width: 48%;
+    display: block !important;
+    margin-bottom: 5%;
+  }
+
+  .mobile-gallery-image:nth-child(3),
+  .mobile-gallery-image:nth-child(4) {
+    margin-bottom: 0 !important; /* Use !important to ensure this rule takes precedence */
+  }
+
+  .why-choose-us-section .col-md-6 {
+    margin-bottom: 24px;
+  }
+
+  .features-section p {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .features-section h4 {
+    font-size: 20px;
+  }
+
+  .comparison-section .comparison-items h4 {
+    font-size: 18px;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  .comparison-section .comparison-items ul li,
+  .testimonial-section .testimonial-slider .ts-items p,
+  .faq-section .accordion-item .accordion-body {
+    font-size: 14px;
+  }
+
+  .comparison-section .comparison-items {
+    padding: 18px;
+  }
+
+  .book-button {
+    white-space: nowrap;
+  }
+
+  .testimonial-section .testimonial-slider .slick-slide {
+    margin: 0 8px;
+  }
+
+  .testimonial-section .testimonial-slider .ts-items {
+    padding: 32px 22px;
+  }
+
+  .faq-section .accordion-item h6 button,
+  .blogs-section .blog-items h4 {
+    font-size: 16px;
+  }
+
+  .blogs-section .blog-items p {
+    font-size: 12px;
+  }
+
+  footer h6 {
+    margin-top: 60px;
+  }
+
+  footer .row>*{
+    width: auto;
+  }
+
+  .blog-items {
+    margin-bottom: 20px;
+  }
+
+  .blogs-wrapper h3 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .blog-detail p,
+  .values-section p,
+  .partnership-section .partnership-approach-points .pap-items p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .values-section h4 {
+    font-size: 28px;
+  }
+
+  .our-teams-section .row {
+    row-gap: 26px;
+  }
+
+  .our-teams-section h6 {
+    margin-bottom: 0;
+  }
+}
+
+/* Media queries for mobile views */
+@media (max-width: 768px) {
+  /* header css starts here */
+  header {
+    position: static;
+    padding: 16px 0;
+  }
+
+  header .header {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  #hamburger,
+  #closeMenu {
+    display: block;
+  }
+
+  .navigation-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s 0.3s, opacity 0.3s linear; /* Transition for smooth effect */
+  }
+
+  .navigation-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s 0s, opacity 0.3s linear;
+  }
+
+  .navigation-menu ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navigation-menu ul li a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  header .logo {
+    max-width: 156px;
+    order: 2;
+  }
+
+  #hamburger {
+    order: 1;
+  }
+
+  .header .primary-button {
+    order: 3;
+    padding: 8px 24px;
+  }
+
+  /* header css ends here */
+
+  /* banner css starts here */
+
+  .banner .col-md-7 {
+    margin-top: 0;
+  }
+
+  .banner h6 {
+    margin-top: 42px;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  .banner p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .banner p {
+    margin-bottom: 24px;
+  }
+
+  .how-it-works-section {
+    margin-top: 107px;
+  }
+
+  section {
+    margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 8px;
+  }
+
+  .mt-40 {
+    margin-top: 20px;
+  }
+
+  .how-it-works-section h4 {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+
+  .how-it-works-section img {
+    margin: 0 auto;
+  }
+
+  .how-it-works-section .col-md-4 {
+    margin-bottom: 57px;
+  }
+
+  .how-it-works-section .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+
+  .primary-button {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .banner-sliders {
+    display: none;
+  }
+
+  .about-us-section ul li:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  .about-us-section ul li {
+    font-size: 14px;
+  }
+
+  .about-us-section ul {
+    margin-bottom: 29px;
+  }
+
+  .about-us-section h6 {
+    margin-top: 40px;
+  }
+
+  .first-column,
+  .second-column,
+  .third-column {
+    margin-right: 0;
+    flex: 0;
+  }
+
+  .gallery {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .gallery .column {
+    display: none;
+  }
+
+  .mobile-gallery-image {
+    width: 48%;
+    display: block !important;
+    margin-bottom: 5%;
+  }
+
+  .mobile-gallery-image:nth-child(3),
+  .mobile-gallery-image:nth-child(4) {
+    margin-bottom: 0 !important; /* Use !important to ensure this rule takes precedence */
+  }
+
+  .landscape-vision-section {
+    margin-top: 48px;
+  }
+
+  .landscape-vision-slider .lvs-items {
+    column-gap: 16px;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .landscape-vision-section .landscape-vision-slider ul.slick-dots {
+    margin-top: 24px;
+  }
+
+  .why-choose-us-section .items h4 {
+    font-size: 16px;
+  }
+
+  .why-choose-us-section .items p {
+    font-size: 14px;
+  }
+
+  .why-choose-us-section .col-6 {
+    margin-bottom: 16px;
+    padding: 0 7px;
+  }
+
+  .why-choose-us-section .items {
+    padding: 20px 16px;
+    border-radius: 8px;
+  }
+
+  .why-choose-us-section .row {
+    padding: 0 12px;
+  }
+
+  .features-section {
+    margin-top: 53px;
+  }
+
+  .features-brief .mt-60 {
+    margin-top: 40px;
+  }
+
+  .features-section h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+
+  .features-section p {
+    margin: 16px 0;
+    font-size: 14px;
+  }
+
+  .features-brief .mt-60:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .comparison-section .row .col-md-5:first-child .comparison-items {
+    border: 4px solid;
+    border-image: linear-gradient(
+        90deg,
+        #5182ed 0.51%,
+        #8875d3 32%,
+        #c4698d 65%,
+        #ed5a6f 100%
+      )
+      1;
+    margin-bottom: 16px;
+  }
+
+  .t-arrow {
+    display: none;
+  }
+
+  .pricing-section .pricing-items .pi-top-bar {
+    row-gap: 12px;
+  }
+
+  .pricing-section .pricing-items {
+    margin-bottom: 48px !important;
+  }
+
+  .testimonial-section .testimonial-slider .slick-slide {
+    margin: 0 8px;
+  }
+
+  .testimonial-section .testimonial-slider .ts-items {
+    padding: 24px 16px;
+  }
+
+  .testimonial-section .testimonial-slider .ts-items p {
+    font-size: 14px;
+  }
+
+  .testimonial-section .testimonial-slider ul.slick-dots {
+    margin-top: 16px;
+  }
+
+  .testimonial-section .testimonial-slider ul.slick-dots {
+    column-gap: 8px;
+  }
+
+  .testimonial-section .mt-60 {
+    margin-top: 27px;
+  }
+
+  .testimonial-section {
+    margin-top: 40px;
+  }
+
+  .faq-section {
+    margin-top: 67px;
+  }
+
+  .faq-section .accordion-item .accordion-body,
+  .faq-section .accordion-item h6 button {
+    font-size: 14px;
+  }
+
+  .blog_slider {
+    padding: 0 0 0 16px;
+  }
+
+  .blog_slider .slick-slide {
+    padding: 0 16px 0 0;
+  }
+
+  footer .container-fluid:first-child {
+    padding: 34px 8px 0;
+  }
+
+  header .header .navigation-menu ul li a {
+    font-size: 18px;
+  }
+
+  .contact-details .cd-items span,
+  .contact-details .cd-items span a {
+    font-size: 14px;
+  }
+
+  footer h6 {
+    margin-top: 40px;
+  }
+
+  .copyright .row > * {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-details {
+    margin-bottom: 24px;
+  }
+
+  .contact-container {
+    padding: 40px 16px;
+  }
+
+  .contact-banner h5 {
+    margin-top: 42px;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select,
+  .contact-form select option {
+    padding: 14px 16px;
+  }
+
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder,
+  .contact-form select option,
+  .contact-form select {
+    font-size: 14px;
+  }
+
+  .contact-container h3 {
+    display: none;
+  }
+
+  .contact-form {
+    margin-top: 26px;
+  }
+
+  footer ul.footer-links li,
+  footer ul.footer-links li a,
+  footer .col-md-4 p {
+    font-size: 14px;
+  }
+
+  .blogs-wrapper h3 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 12px;
+  }
+
+  .blogs-wrapper .o-hide img {
+    margin-bottom: 16px;
+  }
+
+  .blog-detail span {
+    margin-bottom: 12px;
+  }
+
+  .blog-detail span,
+  .blog-detail p {
+    font-size: 12px;
+  }
+
+  .blogs-wrapper {
+    margin-bottom: 16px;
+  }
+
+  .blog_slider ul.slick-dots {
+    margin-top: 8px;
+  }
+
+  .blogs-wrapper {
+    margin-top: 50px;
+  }
+
+  .values-section h4 {
+    font-size: 22px;
+    margin-top: 12px;
+  }
+
+  .values-section p {
+    margin-top: 6px;
+    font-size: 14px;
+  }
+
+  .values-points .row:nth-child(even) {
+    flex-direction: column-reverse;
+    margin-top: 32px;
+  }
+
+  .partnership-section .partnership-approach-points .pap-items {
+    width: 100%;
+    padding: 14px 24px 30px 74px;
+  }
+
+  .partnership-section .partnership-approach-points .pap-items h6 {
+    font-size: 16px;
+  }
+
+  .partnership-section .mt-80{
+    margin-top: 55px;
+  }
+
+  .our-teams-section .row{
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .our-teams-section .row>*{
+    padding: 0;
+  }
+}
